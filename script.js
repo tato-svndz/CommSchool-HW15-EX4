@@ -34,4 +34,5 @@ function createCalendar(elem, year, month) {
 
 let elem = document.getElementById("calendar");
 let year = +prompt('Enter Year: ');
-let month = +prompt('Enter Month: ');
+let month = +prompt('Enter Month: ') - 1;
+createCalendar(elem, year, month);
